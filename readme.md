@@ -30,18 +30,17 @@ git log --oneline 查看历史记录的简洁版本
 回退版本
 
 ~~~
-<<<<<<< HEAD
 git reset Head~1 (Head~1为上一个版本号，前面有字符的例如：git reset 47af9fc 或者git reset Head~1(此为回退一级))
-=======
+
 git reset Head~1(Head~1为上一个版本号，前面有字符的例如：git reset 47af9fc 或者git reset Head~1(此为回退一级))
->>>>>>> dev
+
 
 git reset --hard Head~1(回退指定版本，强制删除后续的历史记录，并且同时更新工作区)
 
 git reflog 查看所有操作记录日志
 ~~~
 
-<<<<<<< HEAD
+
 切换分支
 
 ~~~
@@ -59,5 +58,3 @@ git merge [branchname]将指定分支合并到当前分支
 git branch -d [branchname]
 ~~~
 
-=======
->>>>>>> dev
